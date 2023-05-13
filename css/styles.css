@@ -6,9 +6,14 @@
     text-decoration: none;
 }
 
+.page-header {
+    font-style: normal;
+}
+
 .body {
     font-family: var(--font-family);
     background-color: var(--white);
+    color: var(--button); 
 }
 
 :root {
@@ -47,7 +52,7 @@
     }
 
 .logo-web {
-    font-family: var(--font-family);
+    font-family: "Raleway", sans-serif;
     font-weight: var(--font-weith-logo);
     font-size: var(--font-size-logo);
     line-height: 21px;
@@ -55,18 +60,8 @@
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--iris);
-}
-
-.logo-studio {
-    font-family: 'Raleway',sans-serif;
-    font-weight: var(--font-weith-logo);
-    font-size: var(--font-size-logo);
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    color: var(--navy-blue);
+    color: var(--navy-blue); 
+    color: var(--portfolio-btn); 
 }
 
 .menu-link {
@@ -135,6 +130,7 @@
     letter-spacing: 0.04em;
     color: var(--white);
     background: var(--iris);
+    cursor: pointer;
 }
 
 .hero-button:hover,
@@ -158,9 +154,7 @@
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--navy-blue);
-}
-.photo-item {
-
+    line-height: 1.11; 
 }
 
 .gallery-photo {
@@ -183,10 +177,14 @@ height: 300px;
 
 .footer-line {
 background-color:var(--navy-blue);
-width: 1440px;
-height: 312px;
-left: 0px;
-top: 2280px;
+font-family: "Raleway", sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--iris);
+
 }
 
 .footer-tagline {
@@ -202,6 +200,7 @@ top: 2280px;
 /*===================PORTFOLIO-BTN=================*/
 
 .portfolio-btn {
+font-family: "Roboto", sans-serif; 
 color: var(--iris);
 font-size: var(--font-size-btn);
 line-height: 1.50; 
@@ -212,6 +211,7 @@ letter-spacing: 0.04em;
 border-radius: 4px;
 background: var(--portfolio-btn);
 cursor: pointer;
+font-weight: 500; 
 }
 
 .portfolio-btn:hover,
@@ -220,5 +220,7 @@ cursor: pointer;
     color: var(--white);
 
 }
-
+.item-our-team {
+    background-color: var(--white);
+}
 
