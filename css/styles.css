@@ -18,50 +18,62 @@
 --button: #434455;
 --portfolio-btn: #F4F4FD;
 --font-family:'Roboto',sans-serif; 
---iris:#4D5AE5; 
+--iris:#4D5AE5;
+--font-weith-low:400;
+--font-weith-top:500;
+--font-weith-logo:800;
+--font-weith-text:700;
+--font-size-logo:18px;
+--font-size-btn:16px;
 }
 
 /*===================HEADER======================*/
-.page-header {
+
+.top-text {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: var(--font-weith-top);
+    font-size: 20px;
+    line-height: 1.20; 
+    letter-spacing: 0.02em;
+    color: var(--navy-blue)
 }
 
+.low-text {
+    font-weight: var(--font-weith-low);
+    font-size: var(--font-size-btn) 16px;
+    line-height: 1.50; 
+    letter-spacing: 0.02em;
+    color: var(--hover);
+    }
+
 .logo-web {
-font-family: var(--font-family);
-font-weight: 800;
-font-size: 18px;
-line-height: 21px;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--iris);
+    font-family: var(--font-family);
+    font-weight: var(--font-weith-logo);
+    font-size: var(--font-size-logo);
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
 }
 
 .logo-studio {
-font-family: 'Raleway',sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 21px;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-color: var(--navy-blue);
+    font-family: 'Raleway',sans-serif;
+    font-weight: var(--font-weith-logo);
+    font-size: var(--font-size-logo);
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: var(--navy-blue);
 }
 
-.page-navigation {
-
-}
-
-.logo {
-
-}
-.menu-item {
-
-}
 .menu-link {
     font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: var(--font-weith-top);
+    font-size: var(--font-size-btn);
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
@@ -76,8 +88,8 @@ color: var(--navy-blue);
 .modal-button {
     font-family: var(--font-family); 
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: var(--font-weith-low);
+    font-size: var(--font-size-btn);
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: var(--button);
@@ -90,14 +102,17 @@ color: var(--navy-blue);
 .phone-number {
     font-family: var(--font-family); 
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: var(--font-weith-low);
+    font-size: var(--font-size-btn);
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: var(--button);
 }
+
 /*===================/ADDRESS======================*/
+
 /*===================HERO======================*/
+
 .hero-main {
     background-color: #2E2F42;
     width: 1440px;
@@ -108,7 +123,7 @@ color: var(--navy-blue);
 .hero-text {
     font-family: var(--font-family); 
     font-style: normal;
-    font-weight: 700;
+    font-weight: var(--font-weith-text);
     font-size: 56px;
     line-height: 1.07; 
     text-align: center;
@@ -117,8 +132,8 @@ color: var(--navy-blue);
 }
 .hero-button {
     font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: var(--font-weith-top);
+    font-size: var(--font-size-btn);
     line-height: 1.50; 
     display: flex;
     align-items:center;
@@ -133,24 +148,15 @@ color: var(--navy-blue);
 }
 
 /*===================/HERO======================*/
+
 /*===================STRATEGY======================*/
 
-.strategy-section{
-
-}
-
-.item-strategy {
-
-}
-
 /*===================/STRATEGY======================*/
+
 /*===================GALLERY======================*/
 
-.section-gallery {
-}
-
 .headline-title {
-    font-weight: 700;
+    font-weight: var(--font-weith-text);
     font-size: 36px;
     line-height: 40px;
     text-align: center;
@@ -176,10 +182,7 @@ top: 1128px;
     background-color: var(--portfolio-btn);
 }
 
-.item-our-team {
-}
-.photo-our-team {
-}
+
 /*===================/OUR-TEAM======================*/
 /*===================FOOTER======================*/
 
@@ -192,8 +195,8 @@ top: 2280px;
 }
 
 .footer-tagline {
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: var(--font-weith-low);
+    font-size: var(--font-size-btn);
     line-height: 1.50; 
     letter-spacing: 0.02em;
     color: var(--portfolio-btn);
@@ -203,12 +206,9 @@ top: 2280px;
 /*===================/FOOTER======================*/
 /*===================PORTFOLIO-BTN=================*/
 
-.main-section {
-}
-
 .portfolio-btn {
 color: var(--iris);
-font-size:16px;
+font-size: var(--font-size-btn);
 line-height: 1.50; 
 display: flex;
 align-items: center;
@@ -226,25 +226,4 @@ cursor: pointer;
 
 }
 
-/*===================/PORTFOLIO-BTN======================*/
-/*===================PORTFOLIO-IMG======================*/
-.img-portfolio {
-}
 
-.subheading-title {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.50; 
-letter-spacing: 0.02em;
-color: var(--hover);
-}
-.heading-title {
-    font-family: var(--font-family);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.20; 
-    letter-spacing: 0.02em;
-    color: var(--navy-blue)
-    }
-    /*===================/PORTFOLIO-IMG======================*/
