@@ -1,0 +1,237 @@
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.body {
+    font-family: 'Roboto',sans-serif;
+    background-color: #FFFFFF;
+}
+
+:root {
+--navy-blue: #2E2F42;
+--white: #FFFFFF;
+
+
+    
+}
+
+/*===================HEADER======================*/
+.page-header {
+}
+
+.logo-web {
+font-family: 'Raleway'sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+
+.logo-studio {
+font-family: 'Raleway'sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+color: #2E2F42;
+}
+
+.page-navigation {
+
+}
+
+.logo {
+
+}
+.menu-item {
+
+}
+.menu-link {
+    font-family: 'Roboto'sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
+}
+/*===================/HEADER======================*/
+/*===================ADDRESS======================*/
+.modal-button {
+    font-family: 'Roboto'sans-serif; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.modal-button:hover,
+.modal-button:focus {
+    color: #404BBF;
+}
+
+.phone-number {
+    font-family: 'Roboto'sans-serif; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/*===================/ADDRESS======================*/
+/*===================HERO======================*/
+.hero-main {
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 72px;
+}
+.hero-text {
+    font-family: 'Roboto'sans-serif; 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07; 
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.hero-button {
+    font-family: 'Roboto'sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50; 
+    display: flex;
+    align-items:center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #4D5AE5;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background: #404BBF;
+}
+/*===================/HERO======================*/
+/*===================STRATEGY======================*/
+.strategy-section{
+
+}
+
+.item-strategy {
+
+}
+/*===================/STRATEGY======================*/
+/*===================GALLERY======================*/
+.section-gallery {
+}
+
+.headline-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+.photo-item {
+
+}
+.gallery-photo {
+width: 360px;
+height: 300px;
+left: 156px;
+top: 1128px;
+}
+/*===================/GALLERY======================*/
+/*===================OUR-TEAM======================*/
+.section-our-team {
+    background-color: #F4F4FD;
+}
+
+.item-our-team {
+}
+.photo-our-team {
+}
+/*===================/OUR-TEAM======================*/
+/*===================FOOTER======================*/
+.footer-line {
+background-color:#2E2F42;
+width: 1440px;
+height: 312px;
+left: 0px;
+top: 2280px;
+}
+
+.footer-tagline {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50; 
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+
+
+/*===================/FOOTER======================*/
+/*===================PORTFOLIO-BTN======================*/
+.main-section {
+}
+
+.portfolio-btn {
+color: #4D5AE5;
+font-size:16px;
+line-height: 1.50; 
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+border-radius: 4px;
+background: #F4F4FD;
+cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    background: #404BBF;
+    color: #FFFFFF;
+}
+/*===================/PORTFOLIO-BTN======================*/
+/*===================PORTFOLIO-IMG======================*/
+.img-portfolio {
+}
+
+.subheading-title {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.50; 
+letter-spacing: 0.02em;
+color: #434455;
+}
+.heading-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20; 
+    letter-spacing: 0.02em;
+    color: var(--title-color)
+    }
+    /*===================/PORTFOLIO-IMG======================*/
