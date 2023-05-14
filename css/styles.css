@@ -64,7 +64,7 @@
     color: var(--button);
     }
 
-.logo-web {
+.logo-studio {
     font-family: "Raleway", sans-serif;
     font-weight: var(--font-weith-logo);
     font-size: var(--font-size-logo);
@@ -74,7 +74,6 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--navy-blue); 
-    color: var(--portfolio-btn); 
 }
 
 .menu-link {
