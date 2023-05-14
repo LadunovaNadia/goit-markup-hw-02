@@ -75,6 +75,18 @@
     text-transform: uppercase;
     color: var(--navy-blue); 
 }
+.logo-studio-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: var(--font-weith-logo);
+    font-size: var(--font-size-logo);
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--portfolio-btn); 
+}
+
 
 .menu-link {
     font-family: var(--font-family);
