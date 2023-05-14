@@ -10,6 +10,16 @@
     font-style: normal;
 }
 
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+}
+
 .body {
     font-family: var(--font-family);
     background-color: var(--white);
@@ -34,6 +44,9 @@
 
 /*===================HEADER======================*/
 
+.address-header {
+    font-style: normal
+}
 .top-text {
     font-family:var(--font-family);
     font-weight:var(--font-weith-top);
@@ -91,16 +104,6 @@
 .modal-button:hover,
 .modal-button:focus {
     color: var(--hover);
-}
-
-.phone-number {
-    font-family: var(--font-family); 
-    font-weight: var(--font-weith-low);
-    font-size: var(--font-size-btn);
-    line-height: 1.50;
-    letter-spacing: 0.02em;
-    color: var(--button);
-    font-style: normal;
 }
 
 /*===================/ADDRESS======================*/
