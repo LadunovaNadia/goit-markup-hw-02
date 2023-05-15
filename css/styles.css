@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 
-.page-header {
+.address-header {
     font-style: normal;
 }
 
@@ -138,6 +138,7 @@
     letter-spacing: 0.04em;
     color: var(--white);
     background: var(--iris);
+    cursor: pointer
 }
 
 .hero-button:hover,
