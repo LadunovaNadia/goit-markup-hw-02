@@ -10,16 +10,6 @@
     font-style: normal;
 }
 
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--iris);
-}
-
 .body {
     font-family: var(--font-family);
     background-color: var(--white);
@@ -44,9 +34,6 @@
 
 /*===================HEADER======================*/
 
-.address-header {
-    font-style: normal
-}
 .top-text {
     font-family:var(--font-family);
     font-weight:var(--font-weith-top);
@@ -57,20 +44,29 @@
 }
 
 .low-text {
-    font-weight: var(--font-weith-low);
     font-size: var(--font-size-btn) 16px;
     line-height: 1.50; 
     letter-spacing: 0.02em;
     color: var(--button);
     }
 
+    .logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+    display: flex;
+    align-items: center;
+}
 .logo-studio {
     font-family: "Raleway", sans-serif;
     font-weight: var(--font-weith-logo);
     font-size: var(--font-size-logo);
     line-height: 21px;
     display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--navy-blue); 
@@ -81,10 +77,9 @@
     font-size: var(--font-size-logo);
     line-height: 21px;
     display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--portfolio-btn); 
+    color: var(--portfolio-btn);
 }
 
 
@@ -127,7 +122,6 @@
 }
 .hero-text {
     font-family: var(--font-family); 
-    font-weight: var(--font-weith-text);
     font-size: 56px;
     line-height: 1.07; 
     text-align: center;
@@ -144,7 +138,6 @@
     letter-spacing: 0.04em;
     color: var(--white);
     background: var(--iris);
-    cursor: pointer;
 }
 
 .hero-button:hover,
@@ -161,7 +154,6 @@
 /*===================GALLERY======================*/
 
 .headline-title {
-    font-weight: var(--font-weith-text);
     font-size: 36px;
     line-height: 40px;
     text-align: center;
