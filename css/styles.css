@@ -44,7 +44,7 @@
 }
 
 .low-text {
-    font-size: var(--font-size-btn) 16px;
+    font-size: var(--font-size-btn);
     line-height: 1.50; 
     letter-spacing: 0.02em;
     color: var(--button);
